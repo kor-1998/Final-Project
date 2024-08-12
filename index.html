@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+
+    <link rel="stylesheet" href="./static/css/style.css">
+    <link rel="stylesheet" href="./static/css/animate.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+</head>
+
+<body>
+    <!--header section-->
+    <header>
+        <a href="#" class="logo">Kaoru<span>.</span></a>
+        <nav class="navbar">
+            <a href="#section-home">Home</a>
+            <a href="#section-about">About</a>
+            <a href="#section-project">Projects</a>
+            <a href="#section-contact">Contact</a>
+            
+        </nav>
+    </header>
+
+    <!--Home section-->
+    <section id="section-home" class="home">
+        <div class="home-content">
+            <div class="home-desc">
+                <h3>Welcome to My Portfolio</h3>
+                <h3>Hi, I'm Kaoru Sakai</h3>
+                <h3>I'm <span class="text"></span></h3>
+                <p>Experienced frontend developer with a passion for creating visually 
+                    stunning and user-friendly websites. 
+                <br> Explore my work and feel free 
+                    to reach out for collaborations. Thanks for visiting!
+                </p>
+                <div class="home-sci">
+                    <a href="https://www.linkedin.com/feed/" target="_blank"><i class='bx bxl-linkedin-square' ></i></a>
+                    <a href="https://github.com/" target="_blank"><i class='bx bxl-github'></i></a>
+                    <a href="https://www.instagram.com/" target="_blank"><i class='bx bxl-instagram-alt'></i></a>
+                    <a href="https://www.facebook.com/" target="_blank"><i class='bx bxl-facebook-square' ></i></a>
+                </div>
+                <a href="./static/image/Resume.pdf" target="_blank" class="resume">Hire me</a>
+            </div>
+            <div class="profile-pic">
+                <img src="./static/image/Pic.png" alt="Profile Picture">
+            </div>
+        </div>
+    </section>
+
+    <!--About Me Section-->
+    <div id="section-about"></div>
+    <section class="about">
+        <h1 id="about-bottom" class="heading"><span>About</span> Me</h1>
+        <div class="row">
+            <div id="skill-container-left" class="skill-container">
+                <a href="#" class="skiedu">Skills</a>
+                <ul><p class="skill">Adobe <span>Photoshop</span></p></ul>
+                <ul><p class="skill">Adobe <span>Illustrator</span></p></ul>
+                <ul><p class="skill">Adobe <span>Audition</span></p></ul>
+                <ul><p class="skill">Adobe <span>Indesign</span></p></ul>
+                <ul><p class="skill">Adobe <span>Lightroom</span></p></ul>
+            </div>
+            <div id="skill-container-right" class="skill-container">
+                <a href="#" class="skiedu">Education</a>
+                <ul><p class="education">Seneca college <span>Interactive Media Design</span></p></ul>
+                <ul><p class="education">Wayo Women University <span>Fashion</span></p></ul>
+            </div>
+        </div>
+
+    </section>
+    <!--Project section-->
+    <div id="section-project"></div>
+    <section>
+        <h1 id="project-bottom" class="heading">Check <span>My Projects</span></h1>
+         <div class="project">  
+            <div class="project-item">
+                <img class="image" src="./static/image/quote.jpg">
+                <a href="http://127.0.0.1:5500/assignment2/indext.html" target="_blank" class="project-name">My favorite Quote</a>
+            </div>
+            <div class="project-item">
+                <img class="image" src="./static/image/tavel.png">
+                <a href="http://127.0.0.1:5500/assignment3/index.html" target="_blank" class="project-name">Travel Agency Site</a>
+            </div>
+            <div class="project-item">
+                <img class="image" src="./static/image/Cafe.png">
+                <a href="http://127.0.0.1:5500/assignmemnt4/index.html" target="_blank" class="project-name">My favorite cafe</a>
+            </div>
+            <div class="project-item">
+                <img class="image" src="./static/image/boat.png">
+                <a href="http://127.0.0.1:5500/INM120%20-%20Assignment%206/INM120%20-%20Assignment%206/index.html" target="_blank" class="project-name">Animation</a>
+            </div>
+        </div>    
+    </section>
+   
+    <!--contact section-->
+    <div id="section-contact"></div>
+    <section class="contact">
+        <h1 id="contact-bottom" class="heading"><span>Contact </span>Me</h1>
+        <div class="form">
+            <form action="">
+                <input type="text" placeholder="name" class="box">
+                <input type="email" placeholder="email" class="box">
+                <input type="number" placeholder="number" class="box">
+                <textarea name="" class="box" placeholder="message"></textarea>
+                <input type="submit" value="send message" class="resume">
+            </form>
+        </div>
+    </section>
+
+    <script src="./script.js"></script>
+</body>
+</html> 
