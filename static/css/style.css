@@ -262,6 +262,11 @@ textarea{
 }
 
 @media screen and (max-width: 1250px) {
+    .profile-pic{
+        width:250px;
+        height:250px;
+        margin-left: 50px;
+    }
     .project{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
@@ -270,11 +275,6 @@ textarea{
 }
 
 @media screen and (max-width: 1000px) {
-    .profile-pic{
-        width:200px;
-        height:250px;
-        margin-left: 50px;
-    }
     .skiedu{
         margin-top: 20px;
     }
@@ -294,10 +294,10 @@ textarea{
 @media screen and (max-width: 700px) {
     .home{
         position: relative;
-        padding: 30% 15% 10% 15%;
+        padding: 15% 5% 5% 5%;
     }
     .profile-pic{
-        width:250px;
+        width:200px;
         height: 200px;
     }
     .project{
@@ -310,5 +310,13 @@ textarea{
     }
     form{
         margin-left: 0;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .profile-pic{
+        width:100x;
+        height: 100px;
+        margin-right: 0;
     }
 }
